@@ -1,3 +1,5 @@
+# Along with benefit given by StructuredOutputParser, we can do data validation which is overcome by PydanticOutputParser
+
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
