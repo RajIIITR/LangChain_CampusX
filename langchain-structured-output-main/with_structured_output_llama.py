@@ -1,3 +1,8 @@
+# In this the output parser i.e. "model.with_structured_output(Review)" will not work
+# because the output parser is only for OpenAI, gemini, claude based models but not for llama or some huggingface based open source models
+# To resolve those problem we will use different types of structure output given by langchain like strOutputParser, JsonOutputParser, PydanticOutputParser ...
+# which itself give output in required format for the users.
+
 from dotenv import load_dotenv
 from typing import Optional, Literal
 from pydantic import BaseModel, Field
