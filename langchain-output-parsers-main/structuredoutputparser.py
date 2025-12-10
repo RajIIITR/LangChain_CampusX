@@ -1,3 +1,6 @@
+# StructuredOutputParser uses ResponseSchema to define the structure of the output which overcomes the limitation of JsonOutputParser
+# But we can't do data validation which is overcome by PydanticOutputParser
+
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
