@@ -1,3 +1,5 @@
+# Disadvantage of Json Schema is that we can enforce our own json schema like we use to do in pydantic or typeddict
+
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
