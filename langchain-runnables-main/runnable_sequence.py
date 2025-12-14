@@ -28,5 +28,8 @@ prompt2 = PromptTemplate(
 )
 
 chain = RunnableSequence(prompt1, model, parser, prompt2, model, parser)
+# We can also use | operator to chain the runnables 
+# example: chain = prompt1 | model | parser | prompt2 | model | parser     as an alternative
+
 
 print(chain.invoke({'topic':'AI'}))
