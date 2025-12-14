@@ -389,10 +389,9 @@ pip install google-cloud-storage  # GCS
 
 ## Next Steps
 
-For more advanced use cases, we may need to create a custom document loader. See the [Custom Document Loader Guide](./CUSTOM_DOCUMENT_LOADER.md) for detailed instructions on implementing your own loader.
+For more advanced use cases, we may need to create a custom document loader. See the "Custom Document Loader Guide" from Langchain Documentation for detailed instructions on implementing our own loader.
 
 ## Resources
 
 - [LangChain Documentation](https://python.langchain.com/docs/modules/data_connection/document_loaders/)
-- [Document Loaders API Reference](https://api.python.langchain.com/en/latest/document_loaders.html)
 - [Community Integrations](https://python.langchain.com/docs/integrations/document_loaders/)
