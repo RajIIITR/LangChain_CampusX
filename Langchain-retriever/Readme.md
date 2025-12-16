@@ -135,4 +135,4 @@ Many modern systems use multiple retrievers in combination to leverage the stren
 - [LangChain Retriever Documentation](https://docs.langchain.com/oss/python/integrations/retrievers)
 
 ### Note
-- If someone talk about Advance RAG he/she is directly talking about this retriever only.
+- If someone talk about Advance RAG he/she is directly talking about this type of retriever only.
